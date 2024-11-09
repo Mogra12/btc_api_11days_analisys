@@ -53,7 +53,7 @@ def fig_show(dates):
                             x0='2024-11-05', x1='2024-11-05',
                             y0=0, y1=1,
                             xref='x', yref='paper',
-                            line_width=2, line_color='red'
+                            line_width=2, line_color='black'
                         )],
                         annotations=[dict(
                             x='2024-11-05', y=0.05, yref='paper',
