@@ -9,7 +9,6 @@ class BTC:
 
     def __init__(self):
         if 'Data' in self.data and 'Data' in self.data['Data']:
-
             self.high = [item['high'] for item in self.data['Data']['Data']]
             self.low = [item['low'] for item in self.data['Data']['Data']]
             self.open = [item['open'] for item in self.data['Data']['Data']]
